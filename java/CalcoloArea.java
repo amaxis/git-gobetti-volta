@@ -11,10 +11,10 @@ public class CalcoloArea {
 		int base = 0;
 		int altezza = 0;
 
-		System.out.println("Base del triangolo:");
+		System.out.println("Base del mio triangolo:");
 		base = readInput.nextInt();
      
-		System.out.println("Altezza del triangolo:");
+		System.out.println("Altezza del mio triangolo:");
         altezza = readInput.nextInt();
         readInput.close();
  
