@@ -12,13 +12,13 @@ public class CalcoloArea {
 		int altezza = 0;
 
 		System.out.println("Base del triangolo:");
-		base = s.nextInt();
+		base = readInput.nextInt();
      
 		System.out.println("Altezza del triangolo:");
-        altezza = s.nextInt();
-        s.close();
+        altezza = readInput.nextInt();
+        readInput.close();
  
         Triangolo myTriangle = new Triangolo(base, altezza);
-      	System.out.println("L'area è " + myTriangle.area);
+      	System.out.println("L'area è " + myTriangle.area());
 	}
 }
